@@ -35,3 +35,6 @@ defaults write com.apple.dock autohide-time-modifier -float 0
 
 # Automatically hide and show the Dock
 defaults write com.apple.dock autohide -bool true
+
+# Increase the speed tracking of the mouse to work better with the magic mouse and my resolution
+defaults write -g com.apple.mouse.scaling  5.0
